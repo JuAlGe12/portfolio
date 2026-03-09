@@ -6,7 +6,7 @@ import { ArrowDown, MapPin, Circle } from "lucide-react";
 import { useLanguage } from "@/lib/context";
 import GlowButton from "@/components/ui/GlowButton";
 
-function TypingEffect({ roles }: { roles: string[] }) {
+function TypingEffect({ roles }: { roles: readonly string[] }) {
   const [currentRole, setCurrentRole] = useState(0);
   const [displayed, setDisplayed] = useState("");
   const [deleting, setDeleting] = useState(false);
