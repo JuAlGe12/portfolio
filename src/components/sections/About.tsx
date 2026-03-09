@@ -5,9 +5,7 @@ import { MapPin, Code2, Zap, Coffee } from "lucide-react";
 import { useLanguage } from "@/lib/context";
 import { personalInfo } from "@/lib/data";
 import SectionHeader from "@/components/ui/SectionHeader";
-import Image from "next/image";
 
-const statsIcons = [MapPin, Code2, Zap, Coffee];
 
 export default function About() {
   const { t } = useLanguage();
